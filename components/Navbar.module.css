@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    background: #fff;
+}
+
+.navNew {
+    display: flex;
+    margin: 4px;
+    padding-right: 300px;
+}
+.logo {
+    color: green;
+    padding-left: 20rem;
+    font-size: 30px;
+}   
+
+.menuIcon {
+    height: 23px;
+    width: 24px;
+    margin: 1px;
+    color: green;
+}  
+
+.navInput {
+    font-size: 12px;
+    color: grey;
+    width: 100%;
+}

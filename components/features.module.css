@@ -1,0 +1,29 @@
+.features {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+        margin: 150px;
+  }
+  
+  .feature {
+    width: 50%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    display: grid;
+}
+  
+  
+  .feature .icon {
+    @apply w-12 h-12 mx-auto mb-2;
+  }
+  
+  .feature .title {
+    @apply text-lg font-semibold mb-1;
+  }
+  
+  .feature .description {
+    @apply text-gray-700;
+  }
