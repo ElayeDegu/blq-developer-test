@@ -3,7 +3,7 @@ import useSWR from 'swr';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import styles from './bannerSlider.module.css';
+import styles from './BannerSlider.module.css';
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
